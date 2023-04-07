@@ -8,7 +8,7 @@ Here is the original code that throws the error:
 
 
     //Create Constants to Store Non Repeating Values
-    define('SITEURL', 'http://localhost:8081/food-order-1/');
+    define('SITEURL', 'http://localhost/food-order-1/');
     define('LOCALHOST', 'localhost');
     define('DB_USERNAME', 'root');
     define('DB_PASSWORD', ' ');
