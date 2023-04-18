@@ -26,12 +26,7 @@ Fatal error: Uncaught mysqli_sql_exception: Access denied for user 'root'@'local
 
 Here is the good code that fixed the errors on my xampp with the latest version of php:
 <?php 
- //Create Constants to Store Non Repeating Values
-    define('SITEURL', 'http://localhost/food-order-1/');
-    define('LOCALHOST', 'localhost');
-    define('DB_USERNAME', 'root');
-    define('DB_PASSWORD', ' ');
-    define('DB_NAME', 'food');
+
 
 $conn= new mysqli('localhost','root','','food')or die("Could not connect to mysql".mysqli_error($con));
 if(mysqli_connect_errno()) 
